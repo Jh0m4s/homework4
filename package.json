@@ -1,0 +1,26 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon /app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jh0m4s/homework4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jh0m4s/homework4/issues"
+  },
+  "homepage": "https://github.com/Jh0m4s/homework4#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.4"
+  }
+}

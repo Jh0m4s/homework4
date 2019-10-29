@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> <%=title%> </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1><%=language%></h1>
+        </header>
+        
+        <nav>
+            <a id="<%= currentMenu === 'index' ? 'current' : '' %>" href="/">Home</a>
+            <a id="<%= currentMenu === 'java' ? 'current' : '' %>" href="/java">Java</a>
+            <a id="<%= currentMenu === 'python' ? 'current' : '' %>" href="/python">Python</a>
+            <a id="<%= currentMenu === 'cpp' ? 'current' : '' %>" href="/cpp">C++</a>
+        </nav>
+        
+        <main id ="main">

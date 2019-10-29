@@ -1,0 +1,57 @@
+body{
+    background-color: black !important;
+    color:gray;
+}
+
+#main{
+    display: flex;
+}
+
+nav a { /* links in the nav container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;   /* removes underline */ 
+    color: #4169e1;          /* by default the links are blue */
+    
+}
+
+header, nav, footer{
+    text-align: center;
+}
+
+#paragraphText{
+    font-size: 25px;
+    padding-right: 2em;
+    
+}
+
+header{
+    color: #FF8C00;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+#current {
+    color: white;
+}
+
+footer{
+    font-style: italic;
+    color: red;
+}
+
+#rounded-corners{
+    border-radius: 30px;
+}
+
+marquee{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+ul{
+    text-align: left;
+    padding-left: 50px;
+}
